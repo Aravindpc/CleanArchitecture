@@ -25,11 +25,11 @@
      <module>repository</module>
      <module>controller</module>
      <module>restcontroller</module> 
-     <module>config</module>
+     <module>configmysql</module>
      <module>configpostgresql</module>
      <module>configmongo</module>
      <module>configcassandra</module>
-     <module>mongorepository</module>
-     <module>cassandrarepository</module>
+     <module>repositorymongo</module>
+     <module>repositorycassandra</module>
 </modules>
 </project>
