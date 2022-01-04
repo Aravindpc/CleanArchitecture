@@ -22,7 +22,7 @@
 		</dependency>
 		<dependency>
 		    <groupId>com.java.clean</groupId>
-		    <artifactId>controller</artifactId>
+		    <artifactId>restcontroller</artifactId>
 		    <version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

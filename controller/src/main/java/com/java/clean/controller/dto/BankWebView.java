@@ -3,7 +3,8 @@ package com.java.clean.controller.dto;
 import lombok.Data;
 
 @Data
-public class BankDto {
+public class BankWebView {
+	
 	private Long id;
 	private String bank_reg_number;
 

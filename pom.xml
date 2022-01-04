@@ -18,30 +18,13 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
-<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>com.java</groupId>
-				<artifactId>usecase</artifactId>
-				<version>1.0-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>com.java</groupId>
-				<artifactId>repository</artifactId>
-				<version>1.0-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>com.java</groupId>
-				<artifactId>controller</artifactId>
-				<version>1.0-SNAPSHOT</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+
 <modules>
      <module>domain</module>
      <module>usecase</module>
      <module>repository</module>
-     <module>controller</module>     
+     <module>controller</module>
+     <module>restcontroller</module> 
      <module>config</module>
      <module>configpostgresql</module>
      <module>configmongo</module>
