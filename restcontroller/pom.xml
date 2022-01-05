@@ -24,7 +24,7 @@
 		</dependency>
 		<dependency>
 		    <groupId>com.java.clean</groupId>
-		    <artifactId>controller</artifactId>
+		    <artifactId>adapter</artifactId>
 		    <version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

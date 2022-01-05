@@ -23,7 +23,7 @@
      <module>domain</module>
      <module>usecase</module>
      <module>repository</module>
-     <module>controller</module>
+     <module>adapter</module>
      <module>restcontroller</module> 
      <module>configmysql</module>
      <module>configpostgresql</module>
