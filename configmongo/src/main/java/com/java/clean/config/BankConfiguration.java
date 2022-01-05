@@ -3,7 +3,7 @@ package com.java.clean.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.java.clean.controller.Controller;
+import com.java.clean.adapter.Adapter;
 import com.java.clean.repository.db.BankAdapterImpl;
 import com.java.clean.usecase.CreateBank;
 import com.java.clean.usecase.DeleteBank;
@@ -30,9 +30,9 @@ public class BankConfiguration {
 		return new FindBank(bankAdapter);
 	}
 	@Bean
-	public Controller controller(BankAdapter bankAdapter)
+	public Adapter controller(BankAdapter bankAdapter)
 	{
-		return new Controller(updateBank(bankAdapter()),findBank(bankAdapter()),deleteBank(bankAdapter()),createBank(bankAdapter()));
+		return new Adapter(updateBank(bankAdapter()),findBank(bankAdapter()),deleteBank(bankAdapter()),createBank(bankAdapter()));
 	}
 	
 	@Bean

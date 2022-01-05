@@ -1,10 +1,10 @@
-package com.java.clean.controller;
+package com.java.clean.adapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.java.clean.controller.dto.BankWebView;
-import com.java.clean.controller.mapper.BankMapper;
+import com.java.clean.adapter.dto.BankWebView;
+import com.java.clean.adapter.mapper.BankMapper;
 import com.java.clean.domain.entity.Bank;
 import com.java.clean.usecase.CreateBank;
 import com.java.clean.usecase.UpdateBank;
@@ -12,7 +12,7 @@ import com.java.clean.usecase.DeleteBank;
 import com.java.clean.usecase.FindBank;
 
 
-public class Controller {
+public class Adapter {
 
 	private final CreateBank createBank;
 	
@@ -22,7 +22,7 @@ public class Controller {
 
 	private final DeleteBank deleteBank;
 	
-	public Controller(final UpdateBank updateBank,final FindBank findBank,final DeleteBank deleteBank,final CreateBank createBank)
+	public Adapter(final UpdateBank updateBank,final FindBank findBank,final DeleteBank deleteBank,final CreateBank createBank)
 	{
 		this.createBank = createBank;
 		this.updateBank = updateBank;

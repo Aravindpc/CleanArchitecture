@@ -1,4 +1,4 @@
-package com.java.clean.controller.dto;
+package com.java.clean.adapter.dto;
 
 import lombok.Data;
 

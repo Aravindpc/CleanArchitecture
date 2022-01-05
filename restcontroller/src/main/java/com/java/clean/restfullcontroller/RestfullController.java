@@ -13,16 +13,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.java.clean.controller.Controller;
-import com.java.clean.controller.dto.BankWebView;
+import com.java.clean.adapter.Adapter;
+import com.java.clean.adapter.dto.BankWebView;
 
 @RestController
 @RequestMapping("/bank")
 public class RestfullController {
 
-	private Controller controller;
+	private Adapter controller;
 	
-	public RestfullController(Controller controller)
+	public RestfullController(Adapter controller)
 	{
 		this.controller=controller;
 	}

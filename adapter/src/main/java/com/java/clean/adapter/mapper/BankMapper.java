@@ -1,6 +1,6 @@
-package com.java.clean.controller.mapper;
+package com.java.clean.adapter.mapper;
 
-import com.java.clean.controller.dto.BankWebView;
+import com.java.clean.adapter.dto.BankWebView;
 import com.java.clean.domain.entity.Bank;
 
 public class BankMapper {
